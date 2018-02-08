@@ -3,7 +3,8 @@ package jp.techacademy.tomoki.yamam.javalog;
 import android.util.Log;
 
 class Human extends Animal implements Thinkable {
-    // クラス変数
+    // メンバ変数
+    String hobby;
 
     // コンストラクタ
     public Human(String name, int age, String hobby) {
